@@ -1,0 +1,21 @@
+table {
+    display: table;
+    box-sizing: border-box;
+    border-spacing: 2px;
+    border-color: blue;
+    margin: 8px;
+    border: 20px;
+    padding: 793 x 460.016;
+}
+p {
+   
+    border: 5px solid powderblue;
+  }
+
+tr {
+    text-align: right;
+    color: red;
+}
+p1 {
+    float: right;
+}
