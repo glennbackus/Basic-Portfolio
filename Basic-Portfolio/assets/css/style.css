@@ -1,21 +1,45 @@
-table {
-    display: table;
+p {
+    border-style: solid;
+    border-color: orange;
     box-sizing: border-box;
     border-spacing: 2px;
-    border-color: blue;
     margin: 8px;
-    border: 20px;
-    padding: 793 x 460.016;
+    padding: 10px;
+    background-color: crimson;
+    height: 50px;
+    font-size: 20px;
 }
-p {
-   
-    border: 5px solid powderblue;
-  }
 
-tr {
-    text-align: right;
-    color: red;
-}
+
 p1 {
     float: right;
+    font-size: 14px;
+    
+} 
+
+div > p2 {
+    font-size: 20px;
+    
+}
+div > td {
+    text-align: center;
+    height: 1000px;
+    width: 120%;
+    vertical-align: bottom;
+}
+
+.card {
+    border: 100px #d3d3d3;
+    border-radius: .25rem;
+}
+.bg-img {
+    background-size: cover;
+    min-height: 180px;
+    background-position: center;
+    background-color: blue;
+    margin: 8px;
+    font-size: 25px;  
+}
+p2 {
+    padding: 10px;
 }
