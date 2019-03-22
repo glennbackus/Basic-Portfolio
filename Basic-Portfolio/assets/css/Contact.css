@@ -1,0 +1,20 @@
+p {
+    float: right;
+    font-size: 14px;
+}
+
+p {
+    border-style: solid;
+    border-color: orange;
+    box-sizing: border-box;
+    border-spacing: 2px;
+    margin: 8px;
+    padding: 10px;
+    background-color: crimson;
+    height: 50px;
+    font-size: 20px;
+}
+div-table {
+    float: right;
+    font-size: 14px;
+}

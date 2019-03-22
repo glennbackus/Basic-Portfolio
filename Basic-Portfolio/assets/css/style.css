@@ -10,6 +10,9 @@ p {
     font-size: 20px;
 }
 
+body {
+    background-color: teal
+}
 
 p1 {
     float: right;
@@ -17,29 +20,26 @@ p1 {
     
 } 
 
-div > p2 {
+p2 {
+    padding: 10px;
     font-size: 20px;
-    
-}
-div > td {
-    text-align: center;
-    height: 1000px;
-    width: 120%;
-    vertical-align: bottom;
 }
 
-.card {
-    border: 100px #d3d3d3;
-    border-radius: .25rem;
+img {
+    border-radius: 8px;
+    width: 250px;
+    height: 150px;
 }
+
+
 .bg-img {
     background-size: cover;
     min-height: 180px;
     background-position: center;
     background-color: blue;
     margin: 8px;
-    font-size: 25px;  
-}
-p2 {
+    font-size: 25px; 
+    border-color: orange; 
+    border-spacing: 2px;
     padding: 10px;
 }
