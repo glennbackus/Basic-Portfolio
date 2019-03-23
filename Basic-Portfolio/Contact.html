@@ -2,47 +2,50 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="C:\Users\gback\Basic-Portfolio\Basic-Portfolio\assets\css\Contact.css">
 
-
-<title>Basic Portfolio</title>
-
-<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 <link rel="stylesheet" type="text/css" href="Index.html">
 <link rel="stylesheet" type="text/css" href="Portfolio.html">
 <link rel="stylesheet" type="text/css" href="Contact.html">
+
 </head>
 
 <body>
-<br>
-<br>
-<br>
-<br>
 
-<div>   
-<p>Glenn Backus
-
-
+<p>
+Glenn Backus
 <p1>
-    <a href="Index.html>">About</a>
-    <a href="Portfolio.html">Portfolio</a>
-    <a href="Contact.html">Contact</a>
+  <a href="Index.html">About</a>
+  <a href="Portfolio.html">Portfolio</a>
+  <a href="Contact.html">Contact</a>
 </p1>
 </p>
-</div>
-<br>
-<br>
+<hr>
 
-<div>
-<p2>About Me</p2>
-    <br>
-    <br>
+<div class="container">
+  <header>Contact</header>
+<br>
+<hr>
+    <form action="action_page.php">
+  
+      <label for="fname">Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="John Smith">
+  
+  
+      <label for="email">Email</label>
+      <input type="text" select id="email" name="email" placeholder="example@gmail.com">
     
+</select>
+  
+      <label for="message">Message</label>
+      <textarea id="message" name="message" style="height:200px"></textarea>
+  
+      <input type="submit" value="Submit">
+  
+</form>
 </div>
-
-
-
-
 
 </body>
+
 </html>

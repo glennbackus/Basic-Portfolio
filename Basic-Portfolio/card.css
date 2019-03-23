@@ -1,0 +1,35 @@
+.card {
+    position: center;
+    display: center;
+    flex-direction: column;
+    word-wrap: break-word;
+    background-color: beige;
+    border-width: 600px;
+    box-sizing: border-box;
+    margin: 180px;
+    width: 640px;
+}
+body {
+    background-color: white;
+}
+
+.card-header {
+    padding: 8px;
+    font-weight: bold;
+    font-family: Helvetica;
+    color: green;
+}
+hr {
+    border-width: 1px;
+    border-color: aqua;
+}
+img {
+    border-radius: 8px;
+    width: 200px;
+    height: 140px;
+}
+
+.card-text {
+    padding: 4px;
+    overflow: auto;
+}
