@@ -4,10 +4,11 @@
     flex-direction: column;
     word-wrap: break-word;
     background-color: beige;
-    border-width: 600px;
+    border-width: auto;
     box-sizing: border-box;
-    margin: 180px;
+    margin: auto;
     width: 640px;
+    max-height: 100%;
 }
 body {
     background-color: white;
@@ -27,9 +28,41 @@ img {
     border-radius: 8px;
     width: 200px;
     height: 140px;
+    padding: 10px;
 }
 
+
 .card-text {
-    padding: 4px;
-    overflow: auto;
+    padding: 16px;
+    
+    word-wrap: break-word;
+
 }
+header {
+    position: fixed;
+    
+} 
+p1 {
+    float: right;
+}
+div {opopooooooooopp
+    display: block;
+}
+p1 {
+    font-family: Helvetica;
+    font-size: 20px;
+}
+p4 {
+    padding: 10px;
+    font-size: 20px;
+    border-style: solid;
+    border-color: orange;
+    margin: 6px;
+    background-color: crimson;
+    height: auto;
+    font-size: 20px;
+    background-position: center;
+    line-height: 10px;
+    font-family: Helvetica;
+    
+} 
